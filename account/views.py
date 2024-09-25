@@ -6,7 +6,8 @@ from rest_framework import status
 from .serializers import RegisterSerializer
 
 
-def RegisterView(APIView):
+class RegisterView(APIView):
+    
     def post(self,request):
         try:
             data=request.data
