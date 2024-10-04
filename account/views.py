@@ -20,7 +20,7 @@ class RegisterView(APIView):
         
             serializer.save()
 
-            return Response({'data':{serializer.data},
+            return Response({'data':serializer.data,
                              'message':'Your Account has Created Successfully!'},
                              status=status.HTTP_201_CREATED)
         

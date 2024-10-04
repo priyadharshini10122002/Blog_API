@@ -38,7 +38,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'rest_framework',
-    'account'
+    'account',
+    'home'
 ]
 
 MIDDLEWARE = [
@@ -132,3 +133,10 @@ REST_FRAMEWORK = {
     )
     
 }
+
+
+
+
+# SuperUser
+# UName : admin
+# Pword : 123
