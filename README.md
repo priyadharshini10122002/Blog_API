@@ -17,3 +17,7 @@
   -  **Backend:** Python, Django, Django REST Framework
   -  **Authentication:** JWT Authentication via Django REST Framework
 
+## API Endpoints
+
+You can find the Postman collection for the API [here]
+(https://api.postman.com/collections/35061861-ff481b36-513d-4855-a9a9-be9be7b81d02?access_key=PMAT-01JAAF3PR91CJ8Q76JCJ4JD68V).
