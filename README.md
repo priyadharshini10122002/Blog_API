@@ -7,6 +7,11 @@
 # API Endpoints
   -  POST /api/register/ - Register a new user and get a JWT token.
   -  POST /api/login/ - Authenticate a user and receive a JWT token.
+  -  POST /api/blog/ - Create Blog Post
+  -  GET /api/blog/ - Retrieve Blog Posts
+  -  PATCH /api/blog/<id>/ - Update Blog Post
+  -  DELETE /api/blog/<id>/ - Delete Blog Post
+
 
 # Technology Stack
   -  **Backend:** Python, Django, Django REST Framework
