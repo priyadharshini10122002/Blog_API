@@ -2,6 +2,7 @@
   - **JWT Authentication:** Secure user registration and login with token-based authentication, allowing for protected access to endpoints.
   - **User Management:** Enables new users to sign up and existing users to authenticate, receiving JWT tokens for further interactions.
   - **Token-Based Access Control:** Protects routes and resources, ensuring that only authenticated users can access certain API endpoints.
+  -  **Blog Management**: Full CRUD functionalities to create, read, update, and delete blog posts.
 
 # API Endpoints
   -  POST /api/register/ - Register a new user and get a JWT token.
